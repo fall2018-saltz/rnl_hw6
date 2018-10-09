@@ -95,8 +95,11 @@
             "desc": "",
             "name": "genHists.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "hist_murder.png"
         }
     ],
-    "updated_at": "2018-10-09 19:17:33",
+    "updated_at": "2018-10-09 19:17:56",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
