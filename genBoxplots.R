@@ -1,4 +1,5 @@
 
+library(ggplot2)
 # Create a boxplot for population
 boxPop <- ggplot(merged_data, aes(x=factor(0),population)) + geom_boxplot() + ggtitle('State Population Boxplot')
 
