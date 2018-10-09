@@ -1,6 +1,6 @@
 
 # Calculate the number of murders per state
-merged_data$TotalMurders <- (merged_data$population*erged_data$Murder)/100000
+merged_data$TotalMurders <- (merged_data$population*merged_data$Murder)/100000
 
 # Generate a bar chart with the number of murders per state
 library(ggplot2)
