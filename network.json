@@ -162,10 +162,15 @@
             "name": "box_murder.png"
         },
         {
+            "assigned_to": "rncasagr",
             "desc": "",
-            "name": "genBars.R"
+            "name": "genBars.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "bar_murder.png"
         }
     ],
-    "updated_at": "2018-10-09 19:25:15",
+    "updated_at": "2018-10-09 19:27:13",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
