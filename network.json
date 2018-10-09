@@ -43,6 +43,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "merged_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "merged_data.csv",
+            "target": "genBoxplots.R"
         }
     ],
     "nodes": [
@@ -72,6 +82,6 @@
             "name": "genBoxplots.R"
         }
     ],
-    "updated_at": "2018-10-09 19:13:48",
+    "updated_at": "2018-10-09 19:14:29",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
