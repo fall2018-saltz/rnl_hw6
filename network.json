@@ -78,10 +78,15 @@
             "name": "merged_data.csv"
         },
         {
+            "assigned_to": "rncasagr",
             "desc": "",
-            "name": "genBoxplots.R"
+            "name": "genBoxplots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "hist_pop.png"
         }
     ],
-    "updated_at": "2018-10-09 19:14:29",
+    "updated_at": "2018-10-09 19:16:49",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
