@@ -13,6 +13,7 @@ readStates <- function(states)
     # Update remaining column names 
     colnames(states) <- c("stateName", "population", "popOver18", "percentOver18")
     # Return the results
-    
+    return(states)
 }
 
+raw_data_test <- raw_data
