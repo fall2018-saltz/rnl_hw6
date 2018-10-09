@@ -117,12 +117,62 @@
         {
             "ports": [
                 {
-                    "output": "barMurder",
+                    "output": "barMurder1",
                     "type": "png"
                 }
             ],
             "source": "genBars.R",
-            "target": "bar_murder.png"
+            "target": "bar_murder1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMurder2",
+                    "type": "png"
+                }
+            ],
+            "source": "genBars.R",
+            "target": "bar_murder2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMurder3",
+                    "type": "png"
+                }
+            ],
+            "source": "genBars.R",
+            "target": "bar_murder3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMurder4",
+                    "type": "png"
+                }
+            ],
+            "source": "genBars.R",
+            "target": "bar_murder4.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "merged_data.csv",
+            "target": "genScatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genScatter.R",
+            "target": "scatter_murder.png"
         }
     ],
     "nodes": [
@@ -178,9 +228,30 @@
             "task_status": "in progress"
         },
         {
-            "name": "bar_murder.png"
+            "name": "bar_murder1.png"
+        },
+        {
+            "name": "bar_murder1.png"
+        },
+        {
+            "name": "bar_murder2.png"
+        },
+        {
+            "name": "bar_murder3.png"
+        },
+        {
+            "name": "bar_murder4.png"
+        },
+        {
+            "name": "scatter_murder.png"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "genScatter.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 19:27:20",
+    "updated_at": "2018-10-09 20:27:37",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
