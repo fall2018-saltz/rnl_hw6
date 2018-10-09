@@ -233,10 +233,15 @@
             "name": "bar_murder4.png"
         },
         {
+            "assigned_to": "rncasagr",
             "desc": "",
-            "name": "genScatter.R"
+            "name": "genScatter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatter_murder.png"
         }
     ],
-    "updated_at": "2018-10-09 20:23:45",
+    "updated_at": "2018-10-09 20:26:09",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
