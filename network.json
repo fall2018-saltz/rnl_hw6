@@ -163,6 +163,16 @@
             ],
             "source": "merged_data.csv",
             "target": "genScatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genScatter.R",
+            "target": "scatter_murder.png"
         }
     ],
     "nodes": [
@@ -242,6 +252,6 @@
             "name": "scatter_murder.png"
         }
     ],
-    "updated_at": "2018-10-09 20:26:09",
+    "updated_at": "2018-10-09 20:26:22",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
