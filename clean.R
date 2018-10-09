@@ -19,3 +19,4 @@ readStates <- function(states)
 states <- raw_data
 str(states)
 states <- states[-1,]
+num.row <- nrow(states)
