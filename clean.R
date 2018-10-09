@@ -17,3 +17,4 @@ readStates <- function(states)
 }
 
 states <- raw_data
+str(states)
