@@ -113,6 +113,16 @@
             ],
             "source": "merged_data.csv",
             "target": "genBars.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genBars.R",
+            "target": "bar_murder.png"
         }
     ],
     "nodes": [
@@ -171,6 +181,6 @@
             "name": "bar_murder.png"
         }
     ],
-    "updated_at": "2018-10-09 19:27:13",
+    "updated_at": "2018-10-09 19:27:20",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
