@@ -15,8 +15,3 @@ readStates <- function(states)
     # Return the results
     return(states)
 }
-
-states <- raw_data
-str(states)
-states <- states[-1,]
-num.row <- nrow(states)
