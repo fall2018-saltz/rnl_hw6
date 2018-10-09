@@ -208,8 +208,11 @@
         },
         {
             "name": "bar_murder3.png"
+        },
+        {
+            "name": "bar_murder4.png"
         }
     ],
-    "updated_at": "2018-10-09 20:21:32",
+    "updated_at": "2018-10-09 20:21:43",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
