@@ -117,7 +117,7 @@
         {
             "ports": [
                 {
-                    "output": "barMurder",
+                    "output": "barMurder1",
                     "type": "png"
                 }
             ],
@@ -181,6 +181,6 @@
             "name": "bar_murder.png"
         }
     ],
-    "updated_at": "2018-10-09 19:27:20",
+    "updated_at": "2018-10-09 20:20:03",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
