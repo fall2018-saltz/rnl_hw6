@@ -16,4 +16,4 @@ readStates <- function(states)
     return(states)
 }
 
-raw_data_test <- raw_data
+states <- raw_data
