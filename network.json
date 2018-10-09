@@ -35,7 +35,12 @@
             "target": "MergeArrests.R"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "output": "arrestsPop",
+                    "type": "csv"
+                }
+            ],
             "source": "MergeArrests.R",
             "target": "merged_data.csv"
         }
@@ -63,6 +68,6 @@
             "name": "merged_data.csv"
         }
     ],
-    "updated_at": "2018-10-09 18:18:15",
+    "updated_at": "2018-10-09 18:18:33",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
