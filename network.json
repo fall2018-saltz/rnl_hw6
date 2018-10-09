@@ -107,13 +107,12 @@
         {
             "ports": [
                 {
-                    "input": "clean_data",
-                    "output": "clean_data",
-                    "type": "r_obj"
+                    "input": "merged_data",
+                    "type": "csv"
                 }
             ],
-            "source": "Clean.R",
-            "target": "MergeArrests.R"
+            "source": "merged_data.csv",
+            "target": "genBars.R"
         }
     ],
     "nodes": [
@@ -167,6 +166,6 @@
             "name": "genBars.R"
         }
     ],
-    "updated_at": "2018-10-09 19:24:28",
+    "updated_at": "2018-10-09 19:25:15",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
