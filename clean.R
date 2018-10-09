@@ -2,6 +2,6 @@
 # Re-use the code from HW 3
 readStates <- function(states)
 {
-    # Remove unneccessary rows
+    # Remove first row (US total)
 }
 clean_data
