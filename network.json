@@ -44,9 +44,6 @@
             "name": "data.csv"
         },
         {
-            "name": "boxPopulation.png"
-        },
-        {
             "assigned_to": "rncasagr",
             "desc": "",
             "name": "Clean.R",
@@ -59,6 +56,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 17:21:37",
+    "updated_at": "2018-10-09 17:22:09",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
