@@ -52,7 +52,7 @@
                 }
             ],
             "source": "merged_data.csv",
-            "target": "genBoxplots.R"
+            "target": "genHists.R"
         },
         {
             "ports": [
@@ -61,7 +61,7 @@
                     "type": "png"
                 }
             ],
-            "source": "genBoxplots.R",
+            "source": "genHists.R",
             "target": "hist_pop.png"
         }
     ],
@@ -88,15 +88,15 @@
             "name": "merged_data.csv"
         },
         {
-            "assigned_to": "rncasagr",
-            "desc": "",
-            "name": "genBoxplots.R",
-            "task_status": "in progress"
+            "name": "hist_pop.png"
         },
         {
-            "name": "hist_pop.png"
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "genHists.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 19:16:59",
+    "updated_at": "2018-10-09 19:17:33",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
