@@ -153,6 +153,16 @@
             ],
             "source": "genBars.R",
             "target": "bar_murder4.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "merged_data.csv",
+            "target": "genScatter.R"
         }
     ],
     "nodes": [
@@ -227,6 +237,6 @@
             "name": "genScatter.R"
         }
     ],
-    "updated_at": "2018-10-09 20:23:30",
+    "updated_at": "2018-10-09 20:23:45",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
