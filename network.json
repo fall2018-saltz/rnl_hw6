@@ -1,0 +1,186 @@
+{
+    "collaborators": [
+        "rncasagr"
+    ],
+    "created_at": "2018-10-06 17:38:05",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "Clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "Clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "MergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "arrestsPop",
+                    "type": "csv"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "merged_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "merged_data.csv",
+            "target": "genHists.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histPop",
+                    "type": "png"
+                }
+            ],
+            "source": "genHists.R",
+            "target": "hist_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genHists.R",
+            "target": "hist_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "merged_data.csv",
+            "target": "genBoxplots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxPop",
+                    "type": "png"
+                }
+            ],
+            "source": "genBoxplots.R",
+            "target": "box_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genBoxplots.R",
+            "target": "box_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "merged_data.csv",
+            "target": "genBars.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genBars.R",
+            "target": "bar_murder.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "Clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "merged_data.csv"
+        },
+        {
+            "name": "hist_pop.png"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "genHists.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "hist_murder.png"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "genBoxplots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "box_pop.png"
+        },
+        {
+            "name": "box_murder.png"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "genBars.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "bar_murder.png"
+        }
+    ],
+    "updated_at": "2018-10-09 19:27:20",
+    "url": "https://github.com/fall2018-saltz/rnl_hw6"
+}
