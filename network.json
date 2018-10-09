@@ -23,6 +23,17 @@
             ],
             "source": "Clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "population",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Clean.R",
+            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
@@ -42,12 +53,12 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "rncasagr",
             "desc": "",
             "name": "MergeArrests.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 17:15:31",
+    "updated_at": "2018-10-09 17:17:48",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
