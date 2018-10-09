@@ -124,8 +124,11 @@
             "desc": "",
             "name": "genBoxplots.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "box_pop.png"
         }
     ],
-    "updated_at": "2018-10-09 19:21:05",
+    "updated_at": "2018-10-09 19:21:22",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
