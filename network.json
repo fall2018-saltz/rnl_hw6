@@ -37,8 +37,11 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "boxPopulation.png"
         }
     ],
-    "updated_at": "2018-10-09 17:10:15",
+    "updated_at": "2018-10-09 17:13:25",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
