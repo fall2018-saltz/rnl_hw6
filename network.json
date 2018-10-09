@@ -123,17 +123,6 @@
             ],
             "source": "genBars.R",
             "target": "bar_murder.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "clean_data2",
-                    "output": "clean_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Clean.R",
-            "target": "demo.R"
         }
     ],
     "nodes": [
@@ -190,12 +179,8 @@
         },
         {
             "name": "bar_murder.png"
-        },
-        {
-            "desc": "",
-            "name": "demo.R"
         }
     ],
-    "updated_at": "2018-10-09 20:07:28",
+    "updated_at": "2018-10-09 20:10:39",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
