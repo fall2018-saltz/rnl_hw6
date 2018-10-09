@@ -103,6 +103,17 @@
             ],
             "source": "genBoxplots.R",
             "target": "box_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Clean.R",
+            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
@@ -156,6 +167,6 @@
             "name": "genBars.R"
         }
     ],
-    "updated_at": "2018-10-09 19:23:55",
+    "updated_at": "2018-10-09 19:24:28",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
