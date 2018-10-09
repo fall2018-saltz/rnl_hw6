@@ -4,6 +4,8 @@ arrests <- USArrests
 # Create a merged dataframe
 # Create a new column in arrests with state names
 arrests$State <- rownames(arrests)
+# Remove the District of Columbia from statePop
+statePop <- statePop[which(statePop$State!="District of Columbia"),]
 # Combine the two dataframes
 arrestsPop <- cbind(arrests, clean_data)
 # Remove the duplicate column
