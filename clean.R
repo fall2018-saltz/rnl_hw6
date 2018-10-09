@@ -6,5 +6,6 @@ readStates <- function(states)
     states <- states[-1,]
     # Find number of last row
     num.row <- nrow(states)
+    # Remove last row (Puerto Rico)
 }
 clean_data
