@@ -12,7 +12,7 @@
                 }
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
+            "target": "Clean.R"
         },
         {
             "ports": [
@@ -21,7 +21,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean.R",
+            "source": "Clean.R",
             "target": "data.csv"
         }
     ],
@@ -33,19 +33,19 @@
             "name": "data.csv"
         },
         {
-            "assigned_to": "rncasagr",
-            "desc": "",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "boxPopulation.png"
         },
         {
             "desc": "",
             "name": "mergeArrests.R"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "Clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 17:15:01",
+    "updated_at": "2018-10-09 17:15:19",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
