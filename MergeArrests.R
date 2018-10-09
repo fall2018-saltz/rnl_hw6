@@ -5,6 +5,6 @@ arrests <- USArrests
 # Create a new column in arrests with state names
 arrests$State <- rownames(arrests)
 # Combine the two dataframes
-arrestsPop <- cbind(arrests, population)
+arrestsPop <- cbind(arrests, clean_data)
 # Remove the duplicate column
 arrestsPop <- arrestsPop[,-5]
