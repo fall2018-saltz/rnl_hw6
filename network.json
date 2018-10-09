@@ -73,6 +73,16 @@
             ],
             "source": "genHists.R",
             "target": "hist_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "merged_data.csv",
+            "target": "genBoxplots.R"
         }
     ],
     "nodes": [
@@ -110,10 +120,12 @@
             "name": "hist_murder.png"
         },
         {
+            "assigned_to": "rncasagr",
             "desc": "",
-            "name": "genBoxplots.R"
+            "name": "genBoxplots.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 19:20:03",
+    "updated_at": "2018-10-09 19:21:05",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
