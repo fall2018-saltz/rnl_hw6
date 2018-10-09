@@ -36,16 +36,18 @@
             "name": "boxPopulation.png"
         },
         {
-            "desc": "",
-            "name": "mergeArrests.R"
-        },
-        {
             "assigned_to": "rncasagr",
             "desc": "",
             "name": "Clean.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "MergeArrests.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-09 17:15:19",
+    "updated_at": "2018-10-09 17:15:31",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
