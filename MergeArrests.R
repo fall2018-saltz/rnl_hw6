@@ -10,3 +10,4 @@ states <- clean_data[which(clean_data$stateName!="District of Columbia"),]
 arrestsPop <- cbind(arrests, states)
 # Remove the duplicate column
 arrestsPop <- arrestsPop[,-5]
+str(arrestsPop)
