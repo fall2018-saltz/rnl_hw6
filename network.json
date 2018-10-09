@@ -53,6 +53,16 @@
             ],
             "source": "merged_data.csv",
             "target": "genBoxplots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histPop",
+                    "type": "png"
+                }
+            ],
+            "source": "genBoxplots.R",
+            "target": "hist_pop.png"
         }
     ],
     "nodes": [
@@ -87,6 +97,6 @@
             "name": "hist_pop.png"
         }
     ],
-    "updated_at": "2018-10-09 19:16:49",
+    "updated_at": "2018-10-09 19:16:59",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
