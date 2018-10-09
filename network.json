@@ -63,6 +63,16 @@
             ],
             "source": "genHists.R",
             "target": "hist_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "genHists.R",
+            "target": "hist_murder.png"
         }
     ],
     "nodes": [
@@ -100,6 +110,6 @@
             "name": "hist_murder.png"
         }
     ],
-    "updated_at": "2018-10-09 19:17:56",
+    "updated_at": "2018-10-09 19:18:24",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
