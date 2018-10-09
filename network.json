@@ -30,15 +30,18 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
-        },
-        {
             "name": "data.csv"
         },
         {
             "name": "HW.csv"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 00:03:31",
+    "updated_at": "2018-10-09 17:09:45",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
