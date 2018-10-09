@@ -15,5 +15,5 @@ barMurder <- ggplot(merged_data, aes(x=reorder(State,TotalMurders), y=TotalMurde
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 # Using the above bar chart, sort the x-axis by murder rate
-barMurder <- ggplot(merged_data, aes(x=reorder(State,TotalMurders), y=TotalMurders, group = 1,)) + geom_col() + 
+barMurder <- ggplot(merged_data, aes(x=reorder(State,TotalMurders), y=TotalMurders, group = 1, fill = percentOver18)) + geom_col() + 
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
