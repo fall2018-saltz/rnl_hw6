@@ -8,5 +8,6 @@ readStates <- function(states)
     num.row <- nrow(states)
     # Remove last row (Puerto Rico)
     states <- states[-num.row,]
+    # Remove the first four columns
 }
 clean_data
