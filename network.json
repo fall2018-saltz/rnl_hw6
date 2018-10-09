@@ -33,15 +33,12 @@
             "name": "data.csv"
         },
         {
-            "name": "HW.csv"
-        },
-        {
             "assigned_to": "rncasagr",
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 17:09:45",
+    "updated_at": "2018-10-09 17:10:15",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
