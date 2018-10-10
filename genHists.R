@@ -5,6 +5,7 @@ library(ggplot2)
 histPop <- ggplot(merged_data, aes(x=population))
 # Add the histogram and specify borders and color
 histPop <- histPop + geom_histogram(binwidth=5000000, color="black", fill="white")
+# Add the title
 histPop <- histPop + ggtitle("State Population Histogram")
 histMurder <- ggplot(merged_data, aes(x=Murder))
 histMurder <- histMurder + geom_histogram(binwidth=1, color="black", fill="white")
