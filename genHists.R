@@ -10,6 +10,7 @@ histPop <- histPop + ggtitle("State Population Histogram")
 
 # Repeat the same steps to create a histogram for murder rate
 histMurder <- ggplot(merged_data, aes(x=Murder))
-# Adjust the width of the bins to show the data in a way that is valuable to the viewer
+# Change the width of the bins to show the data in a way that is valuable to the viewer
 histMurder <- histMurder + geom_histogram(binwidth=1, color="black", fill="white")
+# Add the title
 histMurder <- histMurder + ggtitle("State Murder Rate Histogram")
