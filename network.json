@@ -171,12 +171,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "rncasagr",
-            "desc": "",
-            "name": "MergeArrests.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "merged_data.csv"
         },
         {
@@ -238,8 +232,14 @@
             "desc": "",
             "name": "CleanCensus.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 19:06:14",
+    "updated_at": "2018-10-10 19:06:38",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
