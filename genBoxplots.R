@@ -6,3 +6,8 @@ boxPop <- ggplot(merged_data, aes(x=factor(0),population)) + geom_boxplot() + gg
 # Create a boxplot for murder rate
 boxMurder <- ggplot(merged_data, aes(x=factor(0),Murder)) + geom_boxplot() + ggtitle('State Murder Rate Boxplot')
 
+# I think that the histogram visualizations are more helpful because you are looking at more than
+# just two quartiles and their outliers. Instead, you can see how the population is broken 
+# down into multiple ranges and the relative frequency of each range. I feel like seeing
+# the extra groups of populations adds a complexity to the analysis.
+
