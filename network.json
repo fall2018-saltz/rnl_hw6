@@ -173,6 +173,17 @@
             ],
             "source": "genScatter.R",
             "target": "scatter_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Clean.R",
+            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
@@ -252,6 +263,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 20:27:37",
+    "updated_at": "2018-10-10 19:05:12",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
