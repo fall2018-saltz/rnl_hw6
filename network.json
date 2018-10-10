@@ -12,27 +12,7 @@
                 }
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "Clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "Clean.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
-                    "input": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "data.csv",
-            "target": "MergeArrests.R"
+            "target": "CleanCensus.R"
         },
         {
             "ports": [
@@ -173,26 +153,22 @@
             ],
             "source": "genScatter.R",
             "target": "scatter_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "CleanCensus.R",
+            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "name": "data.csv"
-        },
-        {
-            "assigned_to": "rncasagr",
-            "desc": "",
-            "name": "Clean.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "rncasagr",
-            "desc": "",
-            "name": "MergeArrests.R",
-            "task_status": "in progress"
         },
         {
             "name": "merged_data.csv"
@@ -248,10 +224,22 @@
         {
             "assigned_to": "rncasagr",
             "desc": "",
+            "name": "CleanCensus.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
             "name": "genScatter.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 20:27:37",
+    "updated_at": "2018-10-10 19:18:07",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
