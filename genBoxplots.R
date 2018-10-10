@@ -7,4 +7,5 @@ boxPop <- ggplot(merged_data, aes(x=factor(0),population)) + geom_boxplot() + gg
 boxMurder <- ggplot(merged_data, aes(x=factor(0),Murder)) + geom_boxplot() + ggtitle('State Murder Rate Boxplot')
 
 # I think that the histogram visualizations are more helpful because you are looking at more than
+# just two general groups and their outliers. Instead, you can see how the population is 
 
