@@ -7,6 +7,8 @@ histPop <- ggplot(merged_data, aes(x=population))
 histPop <- histPop + geom_histogram(binwidth=5000000, color="black", fill="white")
 # Add the title
 histPop <- histPop + ggtitle("State Population Histogram")
+
+# Repeat the same steps to create a histogram for murder rate
 histMurder <- ggplot(merged_data, aes(x=Murder))
 histMurder <- histMurder + geom_histogram(binwidth=1, color="black", fill="white")
 histMurder <- histMurder + ggtitle("State Murder Rate Histogram")
