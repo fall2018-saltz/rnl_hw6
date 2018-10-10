@@ -8,4 +8,5 @@ boxMurder <- ggplot(merged_data, aes(x=factor(0),Murder)) + geom_boxplot() + ggt
 
 # I think that the histogram visualizations are more helpful because you are looking at more than
 # just two general groups and their outliers. Instead, you can see how the population is 
+# broken down into multiple ranges and the relative frequency of each range. I feel like seeing
 
