@@ -1,5 +1,5 @@
 
-# Re-use the code from HW 3
+# Create a functio nto clean the census data
 readStates <- function(states)
 {
     # Remove first row (US total)
