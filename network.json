@@ -175,6 +175,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "mergeHW7.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "arrestsPopState",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergeHW7.R",
+            "target": "HW7data.csv"
         }
     ],
     "nodes": [
@@ -260,6 +270,6 @@
             "name": "HW7data.csv"
         }
     ],
-    "updated_at": "2018-10-11 20:34:20",
+    "updated_at": "2018-10-11 20:35:19",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
