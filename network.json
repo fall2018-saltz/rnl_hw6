@@ -169,7 +169,7 @@
             "ports": [
                 {
                     "input": "merged_data",
-                    "output": "merged_data",
+                    "output": "arrestsPop",
                     "type": "r_obj"
                 }
             ],
@@ -255,6 +255,6 @@
             "name": "mergeHW7.R"
         }
     ],
-    "updated_at": "2018-10-11 20:29:46",
+    "updated_at": "2018-10-11 20:30:20",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
