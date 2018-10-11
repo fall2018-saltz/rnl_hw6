@@ -251,10 +251,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "rncasagr",
             "desc": "",
-            "name": "mergeHW7.R"
+            "name": "mergeHW7.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "HW7data.csv"
         }
     ],
-    "updated_at": "2018-10-11 20:30:44",
+    "updated_at": "2018-10-11 20:34:20",
     "url": "https://github.com/fall2018-saltz/rnl_hw6"
 }
